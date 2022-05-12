@@ -9,14 +9,15 @@
 @media screen and (max-width: 1024px) {
   .footer {
     max-width: 1184px;
-    margin: auto;
+    margin: 0 48px 0 48px;
   }
 }
 
 @media screen and (max-width: 720px) {
   .footer {
     max-width: 720px;
-    margin: auto;
+    flex-wrap: wrap;
+    margin: 0 24px 0 24px;
   }
 }
 
@@ -24,6 +25,6 @@
   .footer {
     max-width: 186px;
     flex-wrap: wrap;
-    margin: 0 0 0 16px;
+    margin: 0 16px 0 16px;
   }
 }

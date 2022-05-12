@@ -9,3 +9,11 @@
   line-height: 36px;
   color: #fff;
 }
+
+@media screen and (max-width: 500px) {
+  .lead__subtitle {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 16px 16px 40px 16px;
+  }
+}

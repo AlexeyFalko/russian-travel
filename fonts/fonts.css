@@ -25,3 +25,18 @@
     src: url(./Inter-Regular.woff2);
     font-weight: 400;
 }
+
+
+@font-face {
+    font-family: 'Inter';
+    font-style: bold;
+    src: url(./Inter-Bold.woff);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: bold;
+    src: url(./Inter-Bold.woff2);
+    font-weight: 700;
+}

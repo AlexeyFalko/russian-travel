@@ -8,11 +8,19 @@
   padding: 92px 0 92px 0;
 }
 
+@media screen and (max-width: 1210px) {
+  .photo-grid {
+    margin: 0 48px 0 48px;
+  }
+
+}
+
 @media screen and (max-width: 1024px) {
   .photo-grid {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     max-width: 982px;
+    margin: 0 48px 0 48px;
   }
 }
 
@@ -21,6 +29,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     max-width: 720px;
+    margin: 0 24px 0 24px;
   }
 }
 
@@ -29,5 +38,6 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     max-width: 288px;
+    margin: 0 16px 0 16px;
   }
 }

@@ -5,16 +5,21 @@
   max-width: 984px;
 }
 
-@media screen and (max-width: 1023px) {
-  
+
+@media screen and (max-width: 980px) {
+  .intro {
+    margin: 0 48px 0 48px;
+  }
 }
 
-
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 768px) {
   .intro {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    max-width: 288px;
+    margin: 0 24px 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    margin: 0 16px 0 16px;
   }
 }

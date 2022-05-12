@@ -6,20 +6,20 @@
 
 @media screen and (max-width: 1024px) {
   .cover {
-    width: 1024px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 720px) {
   .cover {
-    max-width: 720px;
+    max-width: 100%;
     padding: 90px 0 88px 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
-    max-width: 320px;
+    max-width: 100%;
     padding: 66px 0 64px 0;
   }
 }

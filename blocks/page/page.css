@@ -1,6 +1,6 @@
 .page {
   margin: 0 auto;
-  width: 1280px;
+  width: 100%;
   background: #2a2c2f;
   font-family: 'Inter';
   -moz-osx-font-smoothing: grayscale;
@@ -11,6 +11,7 @@
   text-rendering: optimizeLegibility;
 }
 
+/*
 @media screen and (max-width: 1024px) {
   .page {
     width: 1024px;
@@ -27,4 +28,4 @@
   .page {
     width: 320px;
   }
-}
+} */

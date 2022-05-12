@@ -10,10 +10,45 @@
   color: #ffffff;
 }
 
+@media screen and (max-width: 768px) {
+  .lead__title {
+    max-width: 100%;
+    margin: 0 24px 0 24px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .lead__title {
+    max-width: 100%;
+    font-size: 60px;
+    line-height: 64px;
+    margin: 0 16px 0 16px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .lead__title {
+    max-width: 100%;
+    font-size: 50px;
+    line-height: 54px;
+    margin: 0 16px 0 16px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .lead__title {
+    max-width: 100%;
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0 16px 0 16px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .lead__title {
     max-width: 288px;
     font-size: 40px;
     line-height: 44px;
+    margin: 0 16px 0 16px;
   }
 }

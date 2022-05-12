@@ -24,7 +24,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 564px) {
   .places__place {
     max-width: 288px;
     flex-direction: column;
