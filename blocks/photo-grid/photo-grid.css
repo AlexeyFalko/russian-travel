@@ -30,6 +30,7 @@
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     max-width: 720px;
     margin: 0 24px 0 24px;
+    padding: 88px 0 88px 0;
   }
 }
 
@@ -39,5 +40,6 @@
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     max-width: 288px;
     margin: 0 16px 0 16px;
+    padding: 64px 0 64px 0;
   }
 }

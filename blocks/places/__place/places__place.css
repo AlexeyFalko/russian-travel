@@ -1,9 +1,5 @@
 .places__place {
   max-width: 984px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
   padding: 0 0 80px 0;
   margin: auto;
 }
