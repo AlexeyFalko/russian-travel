@@ -12,6 +12,7 @@
   margin: 0;
   padding: 0;
   z-index: 1;
+  background-position: center;
 }
 
 @media screen and (max-width: 1024px) {
@@ -20,7 +21,7 @@
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
   .cover__background {
     min-height: 480px;
   }
